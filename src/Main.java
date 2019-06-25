@@ -19,10 +19,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-
-        removeElement removeElement = new removeElement();
-        int[] t = {3};
-        removeElement.removeElement(t, 1);
+        removeDuplicates removeDuplicates = new removeDuplicates();
+        int[] t = {1,1,2};
+        removeDuplicates.removeDuplicates(t);
     }
 
     static class findMissingRanges {
