@@ -19,9 +19,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        rotate rotate = new rotate();
-        int[] t = {1,2,3,4,5,6};
-        rotate.rotate(t,2);
+        shortestWordDistanceIII test = new shortestWordDistanceIII();
+        String[] t = {"practice", "makes", "perfect", "coding", "makes"};
+        test.shortestWordDistance(t, "makes", "coding");
     }
 
     static class findMissingRanges {
