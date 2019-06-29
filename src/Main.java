@@ -19,9 +19,10 @@ public class Main {
 
 
     public static void main(String[] args) {
-        shortestWordDistanceIII test = new shortestWordDistanceIII();
-        String[] t = {"practice", "makes", "perfect", "coding", "makes"};
-        test.shortestWordDistance(t, "makes", "coding");
+        jump test = new jump();
+//        String[] t = {"practice", "makes", "perfect", "coding", "makes"};
+        int[] t = {2,3,1,1,4};
+        test.jump(t);
     }
 
     static class findMissingRanges {
