@@ -19,10 +19,10 @@ public class Main {
 
 
     public static void main(String[] args) {
-        jump test = new jump();
+        findDuplicate test = new findDuplicate();
 //        String[] t = {"practice", "makes", "perfect", "coding", "makes"};
-        int[] t = {2,3,1,1,4};
-        test.jump(t);
+        int[] t = {1,3,4,2,2};
+        test.findDuplicate(t);
     }
 
     static class findMissingRanges {
