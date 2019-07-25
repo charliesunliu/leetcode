@@ -19,9 +19,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        rearrangeString test = new rearrangeString();
+        compareVersion test = new compareVersion();
         String s = "++++";
-        test.rearrangeString("aabbcc",3);
+        test.compareVersion("2","1.1");
     }
 
     static class findMissingRanges {
