@@ -19,9 +19,10 @@ public class Main {
 
 
     public static void main(String[] args) {
-        compareVersion test = new compareVersion();
+        myAtoi test = new myAtoi();
         String s = "++++";
-        test.compareVersion("2","1.1");
+        long a = Long.valueOf("20000000000000000000").longValue();
+//        test.myAtoi("20000000000000000000");
     }
 
     static class findMissingRanges {
