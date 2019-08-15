@@ -1,6 +1,7 @@
 import java.util.*;
+import java.io.Serializable;
 
-class TreeNode {
+class TreeNode implements Serializable{
       int val;
       TreeNode left;
       TreeNode right;

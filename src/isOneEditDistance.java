@@ -1,4 +1,4 @@
-class Solution {
+class isOneEditDistance {
     public boolean isOneEditDistance(String s, String t) {
         if (s.equals(t) || Math.abs(s.length() - t.length()) > 1){
             return false;

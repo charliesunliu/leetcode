@@ -19,10 +19,10 @@ public class Main {
 
 
     public static void main(String[] args) {
-        myAtoi test = new myAtoi();
+        numSquares test = new numSquares();
         String s = "++++";
-        long a = Long.valueOf("20000000000000000000").longValue();
-//        test.myAtoi("20000000000000000000");
+
+        test.numSquares(13);
     }
 
     static class findMissingRanges {
