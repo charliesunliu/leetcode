@@ -19,154 +19,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/combinationSum3.java">
+        <entry file="file://$PROJECT_DIR$/src/minDepth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/permuteUnique.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maxPathSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/longestConsecutiveTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#110#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/minDepth.java">
+        <entry file="file://$PROJECT_DIR$/src/combinationSum4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" selection-start-line="10" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="560">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/firstBadVersion.java">
+        <entry file="file://$PROJECT_DIR$/src/getFactors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#ListNode#0;class#Main#0" />
-                <element signature="class#TreeNode#0;class#Main#0" />
-                <element signature="class#findMissingRanges#0;class#Main#0" />
-                <element signature="class#distanceK#0;class#Main#0" />
-                <element signature="class#shortestDistance#0;class#Main#0" />
-                <element signature="class#maxIncreaseKeepingSkyline#0;class#Main#0" />
-                <element signature="class#numJewelsInStones#0;class#Main#0" />
-                <element signature="class#regionsBySlashes#0;class#Main#0" />
-                <element signature="class#buildTree#0;class#Main#0" />
-                <element signature="class#merge#0;class#Main#0" />
-                <element signature="class#numDecodings#0;class#Main#0" />
-                <element signature="class#pushDominoes#0;class#Main#0" />
-                <element signature="class#groupAnagrams#0;class#Main#0" />
-                <element signature="class#searchMatrix#0;class#Main#0" />
-                <element signature="class#setZeroes#0;class#Main#0" />
-                <element signature="class#inorderTraversal#0;class#Main#0" />
-                <element signature="class#minWindow#0;class#Main#0" />
-                <element signature="class#videoStitching#0;class#Main#0" />
-                <element signature="class#generateParenthesis#0;class#Main#0" />
-                <element signature="method#isValid#0;class#isValid#0;class#Main#0" />
-                <element signature="method#simplifyPath#0;class#simplifyPath#0;class#Main#0" />
-                <element signature="method#reverseBetween#0;class#reverseBetween#0;class#Main#0" />
-                <element signature="method#reverseList#0;class#reverseList#0;class#Main#0" />
-                <element signature="method#sortColors#0;class#sortColors#0;class#Main#0" />
-                <element signature="method#uniquePathsWithObstacles#0;class#uniquePathsWithObstacles#0;class#Main#0" />
-                <element signature="method#uniquePaths#0;class#uniquePaths#0;class#Main#0" />
-                <element signature="method#letterCombinations#0;class#letterCombinations#0;class#Main#0" />
-                <element signature="method#letterCombinationsHelper#0;class#letterCombinations#0;class#Main#0" />
-                <element signature="method#bstFromPreorder#0;class#bstFromPreorder#0;class#Main#0" />
-                <element signature="method#shipWithinDays#0;class#shipWithinDays#0;class#Main#0" />
-                <element signature="method#solveNQueens#0;class#solveNQueens#0;class#Main#0" />
-                <element signature="method#queenHelper#0;class#solveNQueens#0;class#Main#0" />
-                <element signature="method#validQueen#0;class#solveNQueens#0;class#Main#0" />
-                <element signature="method#subsetsWithDup#0;class#subsetsWithDup#0;class#Main#0" />
-                <element signature="method#subsetWithDupHelper#0;class#subsetsWithDup#0;class#Main#0" />
-                <element signature="method#grayCode#0;class#grayCode#0;class#Main#0" />
-                <element signature="method#greyCodeHelper#0;class#grayCode#0;class#Main#0" />
-                <element signature="method#combinationSum#0;class#combinationSum#0;class#Main#0" />
-                <element signature="method#combinationSumHelper#0;class#combinationSum#0;class#Main#0" />
-                <element signature="method#trap#0;class#trap#0;class#Main#0" />
-                <element signature="method#firstMissingPositive#0;class#firstMissingPositive#0;class#Main#0" />
-                <element signature="method#swap#0;class#firstMissingPositive#0;class#Main#0" />
-                <element signature="method#subsets#0;class#subsets#0;class#Main#0" />
-                <element signature="method#subsetsHelper#0;class#subsets#0;class#Main#0" />
-                <element signature="method#permute#0;class#permute#0;class#Main#0" />
-                <element signature="method#permuteHelper#0;class#permute#0;class#Main#0" />
-                <element signature="method#isValidBST#0;class#isValidBST#0;class#Main#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/isOneEditDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="40" selection-start-line="40" selection-end-line="42" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/preorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connect2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="500">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,10 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/increasingTriplet.java" />
-        <option value="$PROJECT_DIR$/src/longestConsecutive.java" />
-        <option value="$PROJECT_DIR$/src/findDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/maximumGap.java" />
         <option value="$PROJECT_DIR$/src/canAttendMeetings.java" />
         <option value="$PROJECT_DIR$/src/longestCommonPrefix.java" />
         <option value="$PROJECT_DIR$/src/strStr.java" />
@@ -247,10 +129,14 @@
         <option value="$PROJECT_DIR$/src/maxPathSum.java" />
         <option value="$PROJECT_DIR$/src/longestConsecutiveTree.java" />
         <option value="$PROJECT_DIR$/src/minDepth.java" />
+        <option value="$PROJECT_DIR$/src/searchInsert.java" />
+        <option value="$PROJECT_DIR$/src/getFactors.java" />
+        <option value="$PROJECT_DIR$/src/permuteUnique.java" />
+        <option value="$PROJECT_DIR$/src/combinationSum4.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -262,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -279,7 +166,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,10 +224,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1200318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11844197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -354,7 +240,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.22213562" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -410,37 +296,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/shortestWordDistanceIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/findDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/longestConsecutive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/maximumGap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" selection-start-line="4" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/canAttendMeetings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -516,16 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generatePossibleNextMoves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,10 +577,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/combinationSum2.java">
+    <entry file="file://$PROJECT_DIR$/src/combinationSum3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="4" selection-start-line="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maxPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/longestConsecutiveTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combinationSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -843,38 +716,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/combinationSum3.java">
+    <entry file="file://$PROJECT_DIR$/src/searchInsert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="29" selection-end-column="5" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generatePossibleNextMoves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maxPathSum.java">
+    <entry file="file://$PROJECT_DIR$/src/getFactors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/longestConsecutiveTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="500">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="38" />
           <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#110#111#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/minDepth.java">
+    <entry file="file://$PROJECT_DIR$/src/permuteUnique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" selection-start-line="10" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="273">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combinationSum4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
