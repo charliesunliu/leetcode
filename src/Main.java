@@ -19,10 +19,26 @@ public class Main {
 
 
     public static void main(String[] args) {
-        numSquares test = new numSquares();
-        String s = "++++";
 
-        test.numSquares(13);
+
+
+        wordBreak test = new wordBreak();
+        List<String> ls = new ArrayList<>();
+        ls.add("leet");
+        ls.add("code");
+//        ls.add("aaa");
+//        ls.add("aaaa");
+//        ls.add("aaaaa");
+//        ls.add("aaaaaaa");
+//        ls.add("aaaaaaaa");
+//        ls.add("aaaaaaaaa");
+//        ls.add("aaaaaaaaaa");
+
+
+        if (test.wordBreak("leetcode",ls)){
+            System.out.println(-11);
+        }
+
     }
 
     static class findMissingRanges {
