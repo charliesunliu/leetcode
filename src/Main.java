@@ -21,23 +21,12 @@ public class Main {
     public static void main(String[] args) {
 
 
-
-        wordBreak test = new wordBreak();
-        List<String> ls = new ArrayList<>();
-        ls.add("leet");
-        ls.add("code");
-//        ls.add("aaa");
-//        ls.add("aaaa");
-//        ls.add("aaaaa");
-//        ls.add("aaaaaaa");
-//        ls.add("aaaaaaaa");
-//        ls.add("aaaaaaaaa");
-//        ls.add("aaaaaaaaaa");
+        finalDiscount test = new finalDiscount();
 
 
-        if (test.wordBreak("leetcode",ls)){
-            System.out.println(-11);
-        }
+        Integer[] n = {1,3,3,2,5};
+        List<Integer> l = new LinkedList<>(Arrays.asList(n));
+        test.finalDiscount(l);
 
     }
 
