@@ -21,12 +21,12 @@ public class Main {
     public static void main(String[] args) {
 
 
-        finalDiscount test = new finalDiscount();
+        threeSum test = new threeSum();
 
 
-        Integer[] n = {1,3,3,2,5};
-        List<Integer> l = new LinkedList<>(Arrays.asList(n));
-        test.finalDiscount(l);
+        int[] n = {-1, 0, 1, 2, -1, -4};
+
+        test.threeSum(n);
 
     }
 
