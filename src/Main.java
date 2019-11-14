@@ -21,12 +21,12 @@ public class Main {
     public static void main(String[] args) {
 
 
-        threeSum test = new threeSum();
+        searchRange test = new searchRange();
 
 
-        int[] n = {-1, 0, 1, 2, -1, -4};
+        int[] n = {1,2,3,3,3,3,4,5,9};
 
-        test.threeSum(n);
+        test.searchRange(n, 3);
 
     }
 

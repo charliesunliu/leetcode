@@ -1,3 +1,4 @@
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,14 +11,12 @@ import java.util.List;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class levelOrder {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+class levelOrderBottom {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         int level = 0;
         levelHelper(level, res, root);
         return res;
-
-
     }
     private void levelHelper(int level, List<List<Integer>> res, TreeNode root){
         if (root == null){
@@ -26,12 +25,11 @@ class levelOrder {
         if (res.size() <= level){
             List<Integer> l = new ArrayList<>();
             l.add(root.val);
-            res.add(l);
+            res.add(0,l);
         }else {
-            res.get(level).add(root.val);
+            res.get(res.size() - 1 - level).add(root.val);
         }
         levelHelper(level+1, res, root.left);
         levelHelper(level+1, res, root.right);
     }
-
 }
