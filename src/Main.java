@@ -19,14 +19,15 @@ public class Main {
 
 
     public static void main(String[] args) {
+        String[] a = {"0201","0101","0102","1212","2002"};
 
 
-        searchRange test = new searchRange();
+        openLock test = new openLock();
 
 
-        int[] n = {1,2,3,3,3,3,4,5,9};
 
-        test.searchRange(n, 3);
+
+        test.openLock(a, "0202");
 
     }
 

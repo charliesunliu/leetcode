@@ -1,4 +1,4 @@
-class Solution {
+class numIslands {
     public int numIslands(char[][] grid) {
         if (grid.length == 0){
             return 0;

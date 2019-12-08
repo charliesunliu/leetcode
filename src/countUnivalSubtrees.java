@@ -9,7 +9,7 @@ import java.util.HashSet;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class countUnivalSubtrees {
     int result = 0;
     public int countUnivalSubtrees(TreeNode root) {
         if (root == null){
