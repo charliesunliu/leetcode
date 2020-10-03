@@ -4,30 +4,47 @@ import java.util.*;
 
 public class Main {
 
-    static public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
+//    static public class ListNode {
+//        int val;
+//        ListNode next;
+//        ListNode(int x) { val = x; }
+//    }
 
-    static   public class TreeNode {
-          int val;
-          TreeNode left;
-          TreeNode right;
-          TreeNode(int x) { val = x; }
-      }
+//    static   public class TreeNode {
+//          int val;
+//          TreeNode left;
+//          TreeNode right;
+//          TreeNode(int x) { val = x; }
+//      }
 
 
     public static void main(String[] args) {
 
+        substring s = new substring();
+        long[] a = {123,123};
+        s.substring(a);
+    }
 
-        searchRange test = new searchRange();
+    static class generateParenthesis {
+        int ttt;
+        public List<String> generateParenthesis(int n) {
+            ttt = 0;
+            List<String> result = new LinkedList<>();
+            gpHelper(result, "", n, n);
 
-
-        int[] n = {1,2,3,3,3,3,4,5,9};
-
-        test.searchRange(n, 3);
-
+            return result;
+        }
+        private void gpHelper(List<String> result, String temp, int left, int right){
+            if (left == 0 && right == 0){
+                result.add(temp);
+            }
+            if (left > 0){
+                gpHelper(result, temp+"(", left - 1, right);
+            }
+            if (left < right){
+                gpHelper(result, temp + ")", left, right - 1);
+            }
+        }
     }
 
     static class findMissingRanges {
@@ -548,25 +565,6 @@ public class Main {
         }
     }
 
-    static class generateParenthesis {
-        public List<String> generateParenthesis(int n) {
-            List<String> result = new LinkedList<>();
-            gpHelper(result, "", n, n);
-
-            return result;
-        }
-        private void gpHelper(List<String> result, String temp, int left, int right){
-            if (left == 0 && right == 0){
-                result.add(temp);
-            }
-            if (left > 0){
-                gpHelper(result, temp+"(", left - 1, right);
-            }
-            if (left < right){
-                gpHelper(result, temp + ")", left, right - 1);
-            }
-        }
-    }
 
     static class isValid {
         public boolean isValid(String s) {

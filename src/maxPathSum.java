@@ -9,31 +9,54 @@ import java.util.ArrayList;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class SomaxPathSumlution {
+//class SomaxPathSumlution {
+//    public int maxPathSum(TreeNode root) {
+//       int[] max= new int[1];
+//       max[0] = Integer.MIN_VALUE;
+//
+//       maxTreeSum(root, max);
+//
+//        return max[0];
+//
+//
+//    }
+//    private int maxTreeSum(TreeNode root, int[] max){
+//        if (root == null){
+//            max[0] =  Math.max(max[0], 0);
+//            return 0;
+//        }
+//
+//        int left = Math.max(maxTreeSum(root.left, max), 0);
+//        int right = Math.max(maxTreeSum(root.right, max), 0);
+//
+//        int treeSum = left + right + root.val;
+//
+//        max[0] =  Math.max(max[0], treeSum);
+//
+//
+//        return root.val + Math.max(left, right);
+//    }
+//}
+class maxPathSum {
     public int maxPathSum(TreeNode root) {
-       int[] max= new int[1];
-       max[0] = Integer.MIN_VALUE;
-
-       maxTreeSum(root, max);
-
-        return max[0];
 
 
+        return maxTreeSum(root)[1];
     }
-    private int maxTreeSum(TreeNode root, int[] max){
+    private int[] maxTreeSum(TreeNode root){
         if (root == null){
-            max[0] =  Math.max(max[0], 0);
-            return 0;
+            return new int[]{0, Integer.MIN_VALUE};
         }
 
-        int left = Math.max(maxTreeSum(root.left, max), 0);
-        int right = Math.max(maxTreeSum(root.right, max), 0);
+        int[] left = maxTreeSum(root.left);
+        int[] right =maxTreeSum(root.right);
 
-        int treeSum = left + right + root.val;
+        left[0] = Math.max(left[0], 0);
+        right[0] = Math.max(right[0], 0);
 
-        max[0] =  Math.max(max[0], treeSum);
+        int treeSum = left[0] + right[0] + root.val;
 
 
-        return root.val + Math.max(left, right);
+        return new int[] {root.val + Math.max(left[0], right[0]), Math.max(Math.max(left[1],right[1]), treeSum)};
     }
 }
