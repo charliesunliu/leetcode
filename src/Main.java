@@ -19,18 +19,19 @@ public class Main {
 
 
     public static void main(String[] args) {
+        String[] a = {"0201","0101","0102","1212","2002"};
 
         substring s = new substring();
         long[] a = {123,123};
         s.substring(a);
     }
 
-    static class generateParenthesis {
-        int ttt;
-        public List<String> generateParenthesis(int n) {
-            ttt = 0;
-            List<String> result = new LinkedList<>();
-            gpHelper(result, "", n, n);
+        openLock test = new openLock();
+
+
+
+
+        test.openLock(a, "0202");
 
             return result;
         }
